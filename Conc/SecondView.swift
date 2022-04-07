@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct SecondView: View {
+    
+    @Binding var count : Int
+    
     var body: some View {
-        ZStack {
+        VStack {
+            
             Text("Hello, World!")
+            
+            Text("\(count)")
         }
+
             
     }
 }
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView()
+        SecondView(count: .constant(0))
     }
 }

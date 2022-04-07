@@ -9,13 +9,18 @@ import SwiftUI
 import ConcentricOnboarding
 
 struct ContentView: View {
+    @StateObject var model : PageModel = PageModel()
+
     var body: some View {
         ConcentricOnboardingView(pageContents: [
-            (SecondView(), Color.orange),
-            (SecondView(), Color.blue),
-            (SecondView(), Color.gray)
+            (SecondView(count: $model.count), Color.orange),
+            (SecondView(count: $model.count), Color.blue),
+            (SecondView(count: $model.count), Color.gray)
         ]) .nextIcon("")
-        
+            .didChangeCurrentPage { i in
+                model.count = i + 1
+            }
+
     }
 }
 

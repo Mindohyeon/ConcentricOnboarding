@@ -14,6 +14,7 @@
 		DFF8133227FEE17700482228 /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = DFF8133127FEE17700482228 /* ConcentricOnboarding */; };
 		DFF8133427FEE1A900482228 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8133327FEE1A900482228 /* SecondView.swift */; };
 		DFF8133627FEFF3700482228 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8133527FEFF3700482228 /* ThirdView.swift */; };
+		DFF8133827FF05BA00482228 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8133727FF05BA00482228 /* PageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DFF8132927FEE14D00482228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFF8133327FEE1A900482228 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		DFF8133527FEFF3700482228 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		DFF8133727FF05BA00482228 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DFF8132827FEE14D00482228 /* Preview Content */,
 				DFF8133327FEE1A900482228 /* SecondView.swift */,
 				DFF8133527FEFF3700482228 /* ThirdView.swift */,
+				DFF8133727FF05BA00482228 /* PageModel.swift */,
 			);
 			path = Conc;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF8133427FEE1A900482228 /* SecondView.swift in Sources */,
+				DFF8133827FF05BA00482228 /* PageModel.swift in Sources */,
 				DFF8133627FEFF3700482228 /* ThirdView.swift in Sources */,
 				DFF8132527FEE14C00482228 /* ContentView.swift in Sources */,
 				DFF8132327FEE14C00482228 /* ConcApp.swift in Sources */,
